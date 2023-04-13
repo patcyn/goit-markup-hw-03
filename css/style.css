@@ -8,6 +8,9 @@ body {
   font-weight: 500;
   letter-spacing: 0.03em;
 }
+img {
+  display: block;
+}
 ul {
   list-style: none;
 }
@@ -16,6 +19,10 @@ button {
 }
 h2 {
   margin: 0;
+}
+header {
+  border-bottom: 1px solid #ececec;
+  width: 100%;
 }
 .container {
   max-width: 1200px;
@@ -35,7 +42,9 @@ h2 {
   font-weight: 700;
   line-height: 1.18;
   text-decoration: none;
-  padding-top: 5px;
+  padding-top: 24px;
+  padding-right: 93px;
+  padding-bottom: 25px;
 }
 .logo-black {
   color: #000000;
@@ -45,6 +54,7 @@ h2 {
   line-height: 1.15;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-right: not(: last-child) 46px;
 }
 .black-link:hover,
 .contact:hover {
@@ -57,19 +67,22 @@ h2 {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
 .main-logo {
   color: #ffffff;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
+  padding-bottom: 30px;
 }
 .main-background {
   background-color: #2f303a;
   width: 100%;
-  height: 600px;
+  padding-bottom: 280px;
+
   text-align: center;
-  padding-top: 160px;
+  padding-top: 200px;
 }
 .main-button {
   color: #ffffff;
@@ -84,16 +97,19 @@ h2 {
   padding: 10px 42px;
 }
 .background-lorem {
-  background-color: #e5e5e5;
+  background-color: white;
 }
 .heading-lorem {
   color: #212121;
   font-weight: 700;
   line-height: 1.15;
+  font-style: normal;
+  padding-bottom: 10px;
 }
 .text-lorem {
   color: #757575;
   line-height: 1.7;
+  font-weight: 400;
 }
 .section-headings {
   color: #212121;
@@ -105,11 +121,16 @@ h2 {
 }
 .section-what-we-do {
   text-align: center;
-  background-color: #e5e5e5;
+  background-color: white;
+}
+.who-is-who {
+  padding-bottom: 108px;
 }
 .background-our-team {
   background-color: #f5f4fa;
   text-align: center;
+  width: 100%;
+  height: 648px;
 }
 .team-image {
   background-color: #ffffff;
@@ -117,23 +138,31 @@ h2 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
-  height: 368px;
 }
+
 .name {
   color: #212121;
   font-size: 16px;
   line-height: 1.15;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .position {
   color: #757575;
   font-size: 16px;
   line-height: 1.15;
+  padding-bottom: 30px;
 }
 .logo-white {
   color: #ffffff;
 }
 .footer {
   background-color: #2f303a;
+  width: 100%;
+  height: 252px;
+}
+.footer-back {
+  padding-top: 60px;
 }
 .adress-footer {
   color: #ffffff;
@@ -141,6 +170,8 @@ h2 {
   text-decoration: none;
   font-style: normal;
   margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -164,11 +195,11 @@ h2 {
   cursor: pointer;
 }
 .main-portfolio {
-  background-color: #e5e5e5;
+  background-color: white;
 }
-.image-portfolio {
-  border: 1px solid;
-  border-color: #eeeeee;
+.image-border {
+  border-top: none;
+  border: 1px solid #eeeeee;
 }
 .image-title {
   color: #212121;
@@ -176,28 +207,36 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 4px;
 }
 .image-undertitle {
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 
 .header {
   display: flex;
-  height: 80px;
+
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .page-links {
   display: flex;
   gap: 46px;
+  padding-top: 32px;
 }
 .address-links {
   display: flex;
   margin-left: auto;
   gap: 50px;
+  padding-top: 32px;
 }
+
 .lorem-element {
   display: flex;
   gap: 30px;
@@ -207,6 +246,7 @@ h2 {
 .pictures-what-we-do {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .our-team {
   display: flex;
@@ -216,7 +256,7 @@ h2 {
   display: flex;
   gap: 8px;
   padding-top: 94px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   justify-content: center;
 }
 .portfolio-pictures {
@@ -224,6 +264,7 @@ h2 {
   margin-right: auto;
   margin-left: auto;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
   flex-basis: calc((100% - 30px) / 3);
+  padding-bottom: 94px;
 }
