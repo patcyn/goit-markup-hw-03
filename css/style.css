@@ -130,7 +130,6 @@ header {
   background-color: #f5f4fa;
   text-align: center;
   width: 100%;
-  height: 648px;
 }
 .team-image {
   background-color: #ffffff;
@@ -159,10 +158,10 @@ header {
 .footer {
   background-color: #2f303a;
   width: 100%;
-  height: 252px;
 }
 .footer-back {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adress-footer {
   color: #ffffff;
@@ -251,6 +250,7 @@ header {
 .our-team {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .all-buttons {
   display: flex;
