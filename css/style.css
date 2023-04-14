@@ -34,6 +34,10 @@ header {
   padding-top: 94px;
   padding-bottom: 94px 0;
 }
+.main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* index begin */
 .logo-blue {
   color: #2196f3;
@@ -42,9 +46,9 @@ header {
   font-weight: 700;
   line-height: 1.18;
   text-decoration: none;
-  padding-top: 24px;
   padding-right: 93px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px;
+  padding-top: 24px; */
 }
 .logo-black {
   color: #000000;
@@ -79,10 +83,8 @@ header {
 .main-background {
   background-color: #2f303a;
   width: 100%;
-  padding-bottom: 280px;
-
   text-align: center;
-  padding-top: 200px;
+  padding: 200px 0;
 }
 .main-button {
   color: #ffffff;
@@ -111,12 +113,15 @@ header {
   line-height: 1.7;
   font-weight: 400;
 }
+.lorem-main {
+  padding-top: 94px;
+}
 .section-headings {
   color: #212121;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
 }
 .section-what-we-do {
@@ -138,19 +143,21 @@ header {
   border-radius: 0px 0px 4px 4px;
   width: 270px;
 }
-
+.name-and-position {
+  padding: 30px 30px;
+}
 .name {
   color: #212121;
   font-size: 16px;
-  line-height: 1.15;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  line-height: 1.7;
+  /* padding-top: 30px;
+  padding-bottom: 10px; */
 }
 .position {
   color: #757575;
   font-size: 16px;
-  line-height: 1.15;
-  padding-bottom: 30px;
+  line-height: 1.7;
+  /* padding-bottom: 30px; */
 }
 .logo-white {
   color: #ffffff;
@@ -199,6 +206,8 @@ header {
 .image-border {
   border-top: none;
   border: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .image-title {
   color: #212121;
@@ -207,55 +216,58 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
   padding-top: 20px;
-  padding-left: 24px;
-  padding-bottom: 4px;
 }
 .image-undertitle {
   color: #757575;
   font-size: 16px;
   line-height: 1.9;
-  padding-left: 24px;
-  padding-bottom: 20px;
 }
-
+.header-top {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
 .header {
   display: flex;
-
+  justify-content: space-between;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .page-links {
   display: flex;
   gap: 46px;
-  padding-top: 32px;
+  /* padding-top: 32px; */
 }
 .address-links {
   display: flex;
-  margin-left: auto;
+  /* margin-left: auto; */
   gap: 50px;
-  padding-top: 32px;
+  /* padding-top: 32px; */
+  align-items: center;
 }
 
 .lorem-element {
   display: flex;
   gap: 30px;
   margin: auto;
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 .pictures-what-we-do {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 .our-team {
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 .all-buttons {
   display: flex;
   gap: 8px;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 50px;
   justify-content: center;
 }
@@ -266,5 +278,5 @@ header {
   flex-wrap: wrap;
   gap: 30px;
   flex-basis: calc((100% - 30px) / 3);
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
